@@ -1,0 +1,27 @@
+.navBar{  margin-top: -50px; }
+.navBar ,.inter{
+  border-radius: 60px;
+ z-index: 8;
+}
+
+.inter {
+   border: 1px solid  #D7DADE;
+  }
+  .inter input{
+   border: 0;
+   border-left: 1px solid  #D7DADE;
+  }
+@media (max-width:770px) {
+    .navBar{
+        border-radius: 20px;
+        margin-top: -20px;
+     }
+     .inter{
+      border: 0;
+     }
+  
+     .inter input ,.search{
+        border: 1px solid #ccc;
+        border-radius: 10px;
+     }
+}

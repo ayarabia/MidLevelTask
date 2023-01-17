@@ -1,0 +1,22 @@
+.card {    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+.card ,.cardImage{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+} .cardImage{
+    height: 250px;
+    object-fit: cover;
+}
+   .cardFooter{
+    margin-top: -36px;
+    z-index: 3;
+border-radius: 20px;
+   }
+   .favourit {
+    background-color: #A8A8A8;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+   }
